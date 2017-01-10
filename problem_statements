@@ -1,0 +1,10 @@
+################################
+# SME_ASYNC Problem Statements #
+################################
+
+1) Create a design draft for sme_async
+2) How to handle sync code in async architecture
+3) state trasition and call back handling must be easy
+4) Error should be propogated from current state to previous state to handle
+   state specific error messages and responces.
+

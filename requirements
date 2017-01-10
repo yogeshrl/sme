@@ -1,0 +1,16 @@
+Requirement document: Lists the things to be taken into consideration while
+disigning are architecturing sme_async.
+
+1) Loosely coupled architecture i.e various components must be self sufficients
+   and not dependent on other components
+
+2) Network I/O, File I/O must be plugable and customizable.
+
+3) File I/O must supports various ways of doing async i.e callback, thread
+   poll, libaio like.
+
+4) Must support for signal and timer events
+
+5) No locks
+
+6) Must support custom events
